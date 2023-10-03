@@ -1,0 +1,31 @@
+table, th, td {
+    padding: 25px;
+    border: 1px solid #222;
+    border-collapse: collapse;
+}
+
+th {
+    background: rgb(35, 126, 168);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+th,td {
+    width: 500px;
+}
+
+td {
+    cursor: pointer;
+}
+
+td:hover {
+    background: rgb(249, 249, 1);
+}
+
+.title {
+    font-family: Calibri;
+}
+
+#sched_title {
+    font-size: 60px;
+}
